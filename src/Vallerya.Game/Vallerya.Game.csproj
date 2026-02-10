@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Vallerya.Game</RootNamespace>
+    <Description>Vallerya — main game executable.</Description>
+  </PropertyGroup>
+
+  <!-- Engine references via submodule -->
+  <ItemGroup>
+    <ProjectReference Include="..\..\engine\src\Obsydian.Core\Obsydian.Core.csproj" />
+    <ProjectReference Include="..\..\engine\src\Obsydian.Graphics\Obsydian.Graphics.csproj" />
+    <ProjectReference Include="..\..\engine\src\Obsydian.Input\Obsydian.Input.csproj" />
+    <ProjectReference Include="..\..\engine\src\Obsydian.Audio\Obsydian.Audio.csproj" />
+    <ProjectReference Include="..\..\engine\src\Obsydian.Physics\Obsydian.Physics.csproj" />
+    <ProjectReference Include="..\..\engine\src\Obsydian.Content\Obsydian.Content.csproj" />
+    <ProjectReference Include="..\..\engine\src\Obsydian.UI\Obsydian.UI.csproj" />
+    <ProjectReference Include="..\..\engine\src\Obsydian.Network\Obsydian.Network.csproj" />
+    <ProjectReference Include="..\..\engine\src\Obsydian.Serialization\Obsydian.Serialization.csproj" />
+    <ProjectReference Include="..\..\engine\src\Obsydian.Platform\Obsydian.Platform.csproj" />
+  </ItemGroup>
+
+  <!-- Game data project -->
+  <ItemGroup>
+    <ProjectReference Include="..\Vallerya.GameData\Vallerya.GameData.csproj" />
+  </ItemGroup>
+</Project>

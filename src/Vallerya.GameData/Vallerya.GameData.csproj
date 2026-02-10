@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Vallerya.GameData</RootNamespace>
+    <Description>Data definitions for the Vallerya game — items, NPCs, locations, quests.</Description>
+  </PropertyGroup>
+
+  <!-- Engine reference via submodule -->
+  <ItemGroup>
+    <ProjectReference Include="..\..\engine\src\Obsydian.Core\Obsydian.Core.csproj" />
+  </ItemGroup>
+</Project>
