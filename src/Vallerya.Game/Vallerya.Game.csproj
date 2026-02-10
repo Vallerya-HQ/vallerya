@@ -5,18 +5,18 @@
     <Description>Vallerya — main game executable.</Description>
   </PropertyGroup>
 
-  <!-- Engine references via submodule -->
+  <!-- Engine references via sibling repo -->
   <ItemGroup>
-    <ProjectReference Include="..\..\engine\src\Obsydian.Core\Obsydian.Core.csproj" />
-    <ProjectReference Include="..\..\engine\src\Obsydian.Graphics\Obsydian.Graphics.csproj" />
-    <ProjectReference Include="..\..\engine\src\Obsydian.Input\Obsydian.Input.csproj" />
-    <ProjectReference Include="..\..\engine\src\Obsydian.Audio\Obsydian.Audio.csproj" />
-    <ProjectReference Include="..\..\engine\src\Obsydian.Physics\Obsydian.Physics.csproj" />
-    <ProjectReference Include="..\..\engine\src\Obsydian.Content\Obsydian.Content.csproj" />
-    <ProjectReference Include="..\..\engine\src\Obsydian.UI\Obsydian.UI.csproj" />
-    <ProjectReference Include="..\..\engine\src\Obsydian.Network\Obsydian.Network.csproj" />
-    <ProjectReference Include="..\..\engine\src\Obsydian.Serialization\Obsydian.Serialization.csproj" />
-    <ProjectReference Include="..\..\engine\src\Obsydian.Platform\Obsydian.Platform.csproj" />
+    <ProjectReference Include="..\..\..\obsydian-engine\src\Obsydian.Core\Obsydian.Core.csproj" />
+    <ProjectReference Include="..\..\..\obsydian-engine\src\Obsydian.Graphics\Obsydian.Graphics.csproj" />
+    <ProjectReference Include="..\..\..\obsydian-engine\src\Obsydian.Input\Obsydian.Input.csproj" />
+    <ProjectReference Include="..\..\..\obsydian-engine\src\Obsydian.Audio\Obsydian.Audio.csproj" />
+    <ProjectReference Include="..\..\..\obsydian-engine\src\Obsydian.Physics\Obsydian.Physics.csproj" />
+    <ProjectReference Include="..\..\..\obsydian-engine\src\Obsydian.Content\Obsydian.Content.csproj" />
+    <ProjectReference Include="..\..\..\obsydian-engine\src\Obsydian.UI\Obsydian.UI.csproj" />
+    <ProjectReference Include="..\..\..\obsydian-engine\src\Obsydian.Network\Obsydian.Network.csproj" />
+    <ProjectReference Include="..\..\..\obsydian-engine\src\Obsydian.Serialization\Obsydian.Serialization.csproj" />
+    <ProjectReference Include="..\..\..\obsydian-engine\src\Obsydian.Platform\Obsydian.Platform.csproj" />
   </ItemGroup>
 
   <!-- Game data project -->

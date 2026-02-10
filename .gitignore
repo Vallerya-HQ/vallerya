@@ -43,3 +43,6 @@ coverage/
 ## Build artifacts
 artifacts/
 publish/
+
+## Engine is a sibling repo, not a submodule — ignore any leftover directory
+engine/
