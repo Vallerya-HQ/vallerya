@@ -31,3 +31,4 @@ jobs:
 
       - name: Test
         run: dotnet test --no-build --configuration Release --verbosity normal
+        if: hashFiles('**/*Tests.csproj') != ''
